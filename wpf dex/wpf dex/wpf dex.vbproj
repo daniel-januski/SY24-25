@@ -134,5 +134,11 @@
   <ItemGroup>
     <Resource Include="blackhalk.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="cargo plane.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="sperit.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

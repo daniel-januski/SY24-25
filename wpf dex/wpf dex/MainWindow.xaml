@@ -5,9 +5,19 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:wpf_dex"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800" Icon="/cargo plane.jpg">
     <Grid>
-        <Image HorizontalAlignment="Left" Height="312" Margin="297,93,0,0" VerticalAlignment="Top" Width="463" Source="/blackhalk.jpg"/>
+        <Image x:Name="black" HorizontalAlignment="Left" Height="312" Margin="292,93,0,0" VerticalAlignment="Top" Width="443" Source="/blackhalk.jpg" Visibility="Hidden"/>
+        <Image x:Name="cargo" HorizontalAlignment="Left" Height="238" Margin="273,150,0,0" VerticalAlignment="Top" Width="435" Source="/cargo plane.jpg" Visibility="Hidden"/>
+        <Image x:Name="sperit" HorizontalAlignment="Left" Height="357" Margin="292,74,0,0" VerticalAlignment="Top" Width="430" Source="/sperit.jpg" Visibility="Hidden"/>
+        <Button x:Name="button3" Content="Button" HorizontalAlignment="Left" Margin="38,24,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="button2" Content="Button" HorizontalAlignment="Left" Margin="111,24,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="button1" Content="Button" HorizontalAlignment="Left" Margin="185,24,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.433,0.669"/>
+        <Label x:Name="black1" Content="Manufacturer: Sikorsky." Margin="38,75,621,333" Visibility="Hidden"/>
+        <Label x:Name="black2" Content="Service: US Army." Margin="38,132,656,276" Visibility="Hidden"/>
+        <Label x:Name="black3" Content="Armament: 2x 7.62mm machine guns." Margin="38,204,554,205" Visibility="Hidden"/>
+        <Label x:Name="black4" Content="Speed: 150 kt." Margin="38,269,656,139" Visibility="Hidden"/>
+        <Label x:Name="black5" Content="Range: 320 nm." Margin="38,342,656,66" Visibility="Hidden"/>
 
     </Grid>
 </Window>
